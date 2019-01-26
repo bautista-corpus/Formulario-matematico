@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Formulario matematico</string>
+    <string name="title_activity_calculo">Cálculo</string>
+    <string name="action_about">Acerca de...</string>
+    <item name="action_about" type="id">Acerca de...</item>
+    <string name="title_activity_trigonometria">Trigonometria</string>
+    <string name="title_activity_areasperimetros">Áreas y perímetros</string>
+    <string name="title_activity_calculo_subtemas">Integrales</string>
+    <string name="title_activity_calculo_derivacion">Derivadas</string>
+    <string name="title_activity_cuadrado">Cuadrado</string>
+    <string name="title_activity_acercade">Acerca de nosotros</string>
+    <string name="acerca_de">Esta aplicación fue desarrolla como proyecto de la
+    materia Application development for mobile devices por Jesús Bautista y Ezequiel Barreto en 2015. Esperamos sea de su agrado.</string>
+    <string name="mailx">Contacto: xh-bta@outlook.com</string>
+    <string name="title_activity_triangulo">Triángulo</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jbta.formulariomatematico" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".calculo"
+            android:label="@string/title_activity_calculo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jbta.formulariomatematico.MainActivity" />
+        </activity>
+        <activity
+            android:name=".trigonometria"
+            android:label="@string/title_activity_trigonometria"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jbta.formulariomatematico.MainActivity" />
+        </activity>
+        <activity
+            android:name=".areasperimetros"
+            android:label="@string/title_activity_areasperimetros"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jbta.formulariomatematico.MainActivity" />
+        </activity>
+        <activity
+            android:name=".calculo_subtemas"
+            android:label="@string/title_activity_calculo_subtemas"
+            android:parentActivityName=".calculo"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jbta.formulariomatematico.calculo" />
+        </activity>
+        <activity
+            android:name=".calculo_derivacion"
+            android:label="@string/title_activity_calculo_derivacion"
+            android:parentActivityName=".calculo"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jbta.formulariomatematico.calculo" />
+        </activity>
+        <activity
+            android:name=".cuadrado"
+            android:label="@string/title_activity_cuadrado"
+            android:parentActivityName=".areasperimetros"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jbta.formulariomatematico.areasperimetros" />
+        </activity>
+        <activity
+            android:name=".acercade"
+            android:label="@string/title_activity_acercade"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jbta.formulariomatematico.MainActivity" />
+        </activity>
+        <activity
+            android:name=".triangulo"
+            android:label="@string/title_activity_triangulo"
+            android:parentActivityName=".areasperimetros"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.jbta.formulariomatematico.areasperimetros" />
+        </activity>
+    </application>
+
+</manifest>
